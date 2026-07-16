@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    color: white;
+}
+
+.main {
+    margin-left: 28%;
+    margin-top: 30px;
+}
+
+.elements {
+    height: 200px;
+    width: 200px;
+}
+
+.headingContainer {
+    background-color: brown;
+}
+
+.choices {
+    border: none;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.choices:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.score {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+.score {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 200px;
+}
+
+.score-cardP {
+    padding-right: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.score-cardC {
+    text-align: center;
+    font-size: 40px;
+}
+
+.result {
+    margin-left: 30%;
+    display: flex;
+    background-color: brown;
+    width: 700px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.result:hover {
+    border: 4px solid black;
+}
+
+#yourMove {
+    color: white;
+    font-size: 30px;
+}
